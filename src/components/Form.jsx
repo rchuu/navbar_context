@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import Wrapper from './Wrapper'
 
 const Form = () => {
@@ -10,6 +10,7 @@ const Form = () => {
             context.state = e.target.value
         )
     }
+
     return (
         <div>
             <span>Your Name:  </span>
